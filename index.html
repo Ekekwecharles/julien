@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <img class="first-img" src="img/julnholberton.jpeg" alt="" />
+      <img class="second-img" src="img/julnalx.jpeg" alt="" />
+      <img class="third-img" src="img/julblack.jpeg" alt="" />
+      <p class="clickme" id="clickme">CLICK ME😄</p>
+      <p class="emoji em-1">🙌</p>
+      <p class="emoji em-2">🙌</p>
+      <p class="emoji em-3">🙌</p>
+      <p class="emoji em-4">🙌</p>
+      <p class="emoji em-5">🙌</p>
+      <!-- <p class="emoji em-1">🌹</p>
+      <p class="emoji em-2">🌹</p>
+      <p class="emoji em-3">🌹</p>
+      <p class="emoji em-4">🌹</p>
+      <p class="emoji em-5">🌹</p> -->
+    </section>
+
+    <script>
+      // Add an event listener to detect when the animation ends
+      const myElement = document.getElementById("clickme");
+
+      myElement.addEventListener("animationend", () => {
+        // Set display to 'none' or visibility to 'hidden' after the animation is complete
+        myElement.style.display = "none"; // or myElement.style.visibility = 'hidden';
+      });
+    </script>
+  </body>
+</html>
